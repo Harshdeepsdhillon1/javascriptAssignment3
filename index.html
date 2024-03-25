@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoothie Order Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Smoothie Order Form</h1>
+    <form id="smoothieForm">
+        <label for="flavor">Select Flavor:</label>
+        <select id="flavor" name="flavor">
+            <option value="strawberry">Strawberry</option>
+            <option value="banana">Banana</option>
+            <option value="mango">Mango</option>
+        </select><br>
+
+        <label for="extras">Select Extras:</label><br>
+        <input type="checkbox" id="spinach" name="extras" value="spinach">
+        <label for="spinach">Spinach</label><br>
+        <input type="checkbox" id="proteinPowder" name="extras" value="proteinPowder">
+        <label for="proteinPowder">Protein Powder</label><br>
+        <input type="checkbox" id="chiaSeeds" name="extras" value="chiaSeeds">
+        <label for="chiaSeeds">Chia Seeds</label><br>
+
+        <label for="size">Select Size:</label>
+        <input type="radio" id="small" name="size" value="small">
+        <label for="small">Small</label>
+        <input type="radio" id="medium" name="size" value="medium">
+        <label for="medium">Medium</label>
+        <input type="radio" id="large" name="size" value="large">
+        <label for="large">Large</label><br>
+
+        <button type="button" onclick="createSmoothie()">Order</button>
+    </form>
+
+    <div id="smoothieDetails">
+        <!-- Smoothie details will be displayed here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
