@@ -14,23 +14,72 @@
             <option value="strawberry">Strawberry</option>
             <option value="banana">Banana</option>
             <option value="mango">Mango</option>
+            <option value="apple">Apple</option>
+            <option value="lemon">Lemon</option>
+            <option value="blueberry">Blueberry</option>
+            <option value="pineapple">pineapple</option>
         </select><br>
-
         <label for="extras">Select Extras:</label><br>
-        <input type="checkbox" id="spinach" name="extras" value="spinach">
-        <label for="spinach">Spinach</label><br>
-        <input type="checkbox" id="proteinPowder" name="extras" value="proteinPowder">
-        <label for="proteinPowder">Protein Powder</label><br>
-        <input type="checkbox" id="chiaSeeds" name="extras" value="chiaSeeds">
-        <label for="chiaSeeds">Chia Seeds</label><br>
+        <div class="extras">  
+            <div>
+                <input type="checkbox" id="chocoChips" name="extras" value="chocoChips">
+                <label for="chocoChips">Choco-Chips</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="strawberrySyrup" name="extras" value="strawberrySyrup">
+                <label for="strawberrySyrup">Strawberry Syrup</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="proteinPowder" name="extras" value="proteinPowder">
+                <label for="proteinPowder">Protein Powder</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="chiaSeeds" name="extras" value="chiaSeeds">
+                <label for="chiaSeeds">Chia Seeds</label><br>
+            </div>
+            <div>    
+                <input type="checkbox" id="mapleSyrup" name="extras" value="mapleSyrup">
+                <label for="mapleSyrup">Maple Syrup</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="tripleblend" name="extras" value="tripleblend">
+                <label for="tripleblend">Triple Blend</label><br>
+            </div>
+            
+            
+        </div>
+        
+
 
         <label for="size">Select Size:</label>
-        <input type="radio" id="small" name="size" value="small">
-        <label for="small">Small</label>
-        <input type="radio" id="medium" name="size" value="medium">
-        <label for="medium">Medium</label>
-        <input type="radio" id="large" name="size" value="large">
-        <label for="large">Large</label><br>
+        <div class="size">
+            <div>
+                <input type="radio" id="snack" name="size" value="snack">
+                <label for="snack">Snack</label>
+            </div>
+            <div>
+                <input type="radio" id="small" name="size" value="small">
+                <label for="small">Small</label>
+            </div>
+            <div>
+                <input type="radio" id="medium" name="size" value="medium">
+                <label for="medium">Medium</label>
+            </div>
+            <div>
+                <input type="radio" id="large" name="size" value="large">
+                <label for="large">Large</label><br>
+            </div>
+            <div>
+                <input type="radio" id="xLarge" name="size" value="xLarge">
+                <label for="xLarge">Extra-Large</label><br>
+            </div>
+
+        </div>
+        
+        
+        
+        
+        
 
         <button type="button" onclick="createSmoothie()">Order</button>
     </form>
