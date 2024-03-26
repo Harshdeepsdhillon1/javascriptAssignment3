@@ -109,3 +109,7 @@ input[type="checkbox"]:checked + label:after,
 input[type="radio"]:checked + label:after {
     display: block;
 }
+img{
+    height: 300px;
+    width: auto;
+}

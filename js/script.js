@@ -17,7 +17,8 @@ class Smoothie {
             chocoChips: 2,
             mapleSyrup: 1.5,
             tripleblend: 0.5,
-            strawberrySyrup: 1
+            strawberrySyrup: 1,
+            iceCream: 3
         };
     }
 
